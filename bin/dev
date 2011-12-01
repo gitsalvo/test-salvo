@@ -1,0 +1,22 @@
+#!/bin/bash
+
+function build ()
+{
+  echo "build success"
+  exit 0
+}
+
+function test ()
+{
+  echo "test success"
+  exit 0
+}
+
+case $1 in
+  build)
+    build
+  ;;
+  test)
+    test
+  ;;
+esac
