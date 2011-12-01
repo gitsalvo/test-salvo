@@ -8,8 +8,8 @@ function build ()
 
 function test ()
 {
-  echo "test success"
-  exit 0
+  echo "test fails"
+  exit 1
 }
 
 case $1 in
