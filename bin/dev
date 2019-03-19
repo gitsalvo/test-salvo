@@ -2,8 +2,8 @@
 
 function build ()
 {
-  echo "build success"
-  exit 0
+  echo "build fails"
+  exit 1
 }
 
 function test ()
